@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dpd2cwl63ohie"]
+
+[ext_resource type="Shader" uid="uid://c5psdjrnve658" path="res://shaders/rc_composite.gdshader" id="1_vo683"]
+
+[resource]
+resource_local_to_scene = true
+shader = ExtResource("1_vo683")
+shader_parameter/gi_strength = 1.0
+shader_parameter/blend_mode = 0
